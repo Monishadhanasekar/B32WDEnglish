@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:skyblue;">
+    
+    <h1> Kindly fill the form!</h1>
+    <form>
+        <label for="fname">1.First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">2.Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">3.Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="bdaymonth">4.Birthday(month and year):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth"><br><br>
+        <p>5.Gender:</p>
+             <input type="radio" id="html" name="Gender" value="Male">
+             <label>Male</label>
+             <input type="radio" id="css" name="Gender" value="Female">
+             <label>Female</label><br><br>
+             <label for="country">6.Countryr:</label>
+             <select id="country" name="country">
+               <option value="India">India</option>
+               <option value="US">US</option>
+               <option value="Srilanka">Srilanka</option>
+               <option value="Korea">Korea</option>
+             </select><br><br>
+        <p>7.Choose your favorite web languages:</p>
+             <input type="checkbox" id="html" name="fav_language" value="HTML">
+             <label for="html">HTML</label><br>
+             <input type="checkbox" id="css" name="fav_language" value="CSS">
+             <label for="css">CSS</label><br>
+             <input type="checkbox" id="javascript" name="fav_language" value="JavaScript">
+             <label for="javascript">JavaScript</label><br><br>
+             <label for="vol">8.Your level of knowledge in chosen web language:</label>
+             <input type="range" id="vol" name="vol" min="0" max="10"><br><br>
+             <input type="submit" value="submit">
+      </form>
+</body>
+</html>
