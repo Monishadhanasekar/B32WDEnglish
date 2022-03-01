@@ -1,0 +1,35 @@
+body {
+    background-image: url("assets/breweries.jpg");
+    gap: 2rem;
+    font-family: Roboto, "Helvetica Neue";
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fields {
+    margin: auto;
+    width: 60%;
+}
+
+.heading {
+    margin: 20px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th, td {
+    padding: 10px 20px;
+    border: 1px solid #000;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
