@@ -1,0 +1,39 @@
+body {
+    background-image: url("animals1.jpg");
+    gap: 2rem;
+    font-family: Roboto, "Helvetica Neue";
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.info {
+    padding: 1rem;
+    background-image: linear-gradient(to right, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.animal-type {
+    margin-top: 15px;
+    background-color: cornsilk;
+}
+
+.facts {
+    background-color: cornsilk;
+}
+
+.title {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+}
